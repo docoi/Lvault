@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir:*)",
+      "Bash(npm run build:*)",
+      "Bash(timeout 15s npm run dev)",
+      "Bash(ls:*)",
+      "Bash(npm install:*)",
+      "Bash(timeout 10s npm run dev)",
+      "Bash(timeout 20s npm run dev)",
+      "Bash(timeout 30s npm run dev)",
+      "WebFetch(domain:localhost)",
+      "Bash(node:*)",
+      "Bash(timeout 30s npm run build)",
+      "Bash(del srccomponentsRecentActivity.tsx)",
+      "Bash(timeout 15s npm run dev -- --port 3002)",
+      "Bash(npm run dev:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

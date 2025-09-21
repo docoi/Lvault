@@ -1,0 +1,11 @@
+﻿{
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.13"
+  },
+  "scripts": {
+    "dev": "next dev -p 3001",
+    "dev:3000": "next dev -p 3000"
+  }
+}
